@@ -1,0 +1,43 @@
+/*login*/
+body{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.intro-login{
+	color: #ffffff;
+	margin: 80px 0px 0 20px;
+	font-size: 18px;
+	font-weight: regular;
+}
+.intro-login span{
+	color: #FDB201;
+}
+input[name="numero-celular"]{
+	width: 310px;
+	font-size: 19px;
+	padding: 0 0 0 10px;
+	margin: 40px 0 0 18px;
+}
+input[name="terminos-condiciones"]{
+	margin: 19px 0 0 20px;
+	background-color: #ffffff;
+}
+input[name="terminos-condiciones"] + label, label a{
+	font-size: 17px;
+	width: 261.6px;
+	height: 20px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	color: #ffffff;
+}
+.ingresar{
+  top: 109px;
+}
+.ingresar button{
+  color: #ffffff;
+  font-size: 17px;
+  position: relative;
+  top: 115px;
+  left: 28px;
+}

@@ -1,7 +1,8 @@
-.bg-ligth-blue{
+.bg-light-blue{
 	background-color: #3399CC;
 }
 .btn-general{
+  border: none;
 	width: 300px;
   height: 50px;
   border-radius: 10px;
@@ -77,11 +78,11 @@
     background-image: url(../image/nube-fondo@2x.png);
     background-repeat: no-repeat;
     background-size: 380px;
-    height: 200px;
+    height: 202px;
     background-position: -14px;
     position: relative;
-    bottom: -84px;
-    top: 280px;
+    bottom: 20px;
+    top: 62px;
 }
 .btn-block{
   position: absolute;
