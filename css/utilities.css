@@ -1,14 +1,16 @@
-.bg-ligth-blue{
-	background-color: #3399CC;
+.bg-light-blue{
+  background-color: #3399CC;
 }
 .btn-general{
-	width: 300px;
+  border:none;
+  width: 300px;
   height: 50px;
   border-radius: 10px;
   background-color: #663399;
+  color:#fff;
 }
 .btn-siguiente{
-	width: 264px;
+  width: 264px;
   height: 50px;
   border-radius: 10px;
   background-color: #663399;
@@ -19,6 +21,7 @@
   border-radius: 3px;
   background-color: #ffffff;
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
+  font-family: 'Roboto', sans-serif;
 }
 .bg-nav-profile{
   width: 375px;
@@ -32,25 +35,35 @@
   background-color: #ffffff;
 }
 .font-kalam{
-	font-family: 'Kalam', cursive;
+  font-family: 'Kalam', cursive;
 }
 .ico-profile{
-	width: 24px;
+  width: 24px;
   height: 24px;
   background-color: rgba(255, 255, 255, 0.75);
 }
 .ico-configuration{
-	width: 25px;
+  width: 25px;
   height: 25.3px;
   background-color: rgba(255, 255, 255, 0.75);
 }
-/*-----------nav-----------------*/
+
+/* .nube-footer{
+ background-image: url(../image/nube-fondo@2x.png);
+ background-size: contain;
+ background-repeat: no-repeat;
+ height: 200px;
+ width: 375px;
+ position: relative;
+ left: -15px;
+} */
+-----------nav-----------------
 .user-right{
   position: absolute;
   right: 25px;
   top: 20px;
 }
-.netx-left{
+.next-left{
   position: absolute;
   left: 22px;
   top: 20px;
@@ -70,7 +83,7 @@
   top: 0px;
   font-family: 'Roboto', sans-serif;
   color: #D3E9F3;
-}
+} 
 /*-------------fin----------------*/
 /*----nube---footer---*/
 .nube-footer{
@@ -82,7 +95,7 @@
     position: relative;
     bottom: -84px;
     top: 280px;
-}
+} 
 .btn-block{
   position: absolute;
   background-color: #663399;
@@ -96,4 +109,3 @@
 .footer-image{
   height: 203px;
 }
-/*-----fin--*/
