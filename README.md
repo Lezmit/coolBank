@@ -2,8 +2,19 @@
 
 **Reto**
 
-+ El desarrollo de la web-app "Junta.pe", que permite que tú y tus patas puedan ahorrar un deposito fijo
-  del monto que ustedes definan, según sus necesidades y objetivos.
++ El desarrollo de la web-app "Junta.pe" que permite que tú y tus amigos puedan ahorrar un monto fijo, para después utilizarlo según   sus necesidades, objetivos y sueños.
+  
+  ![Sin titulo](http://i63.tinypic.com/t5nej9.jpg)
+  ![Sin titulo](http://i68.tinypic.com/mmvspi.jpg)
+  ![Sin titulo](http://i66.tinypic.com/rlj2me.jpg)
+  ![Sin titulo](http://i65.tinypic.com/zkpif6.jpg)
+  ![Sin titulo](http://i64.tinypic.com/28lcnjc.jpg)
+  ![Sin titulo](http://i64.tinypic.com/nwdkdz.jpg)
+  ![Sin titulo](http://i65.tinypic.com/24n487c.jpg)
+  ![Sin titulo](http://i68.tinypic.com/k9jbb8.jpg)
+  ![Sin titulo](http://i67.tinypic.com/16037sl.jpg)
+  ![Sin titulo](http://i63.tinypic.com/1zwoke0.jpg)
+  ![Sin titulo](http://i64.tinypic.com/11lhp1f.jpg)
 
 **Nombre del equipo:**
 
