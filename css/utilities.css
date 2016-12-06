@@ -69,12 +69,12 @@
   left: 60px;
   top: 0px;
   font-family: 'Roboto', sans-serif;
-  color: #D3E9F3;
+  color: #FFFFFF;
 }
 /*-------------fin----------------*/
 /*----nube---footer---*/
 .nube-footer{
-    background-image: url(../image/nube-fondo@2x.png);
+    background-image: url(../image/mascara-nube-grande.png);
     background-repeat: no-repeat;
     background-size: 380px;
     height: 200px;
@@ -83,6 +83,7 @@
     bottom: -84px;
     top: 280px;
 }
+
 .btn-block{
   position: absolute;
   background-color: #663399;
