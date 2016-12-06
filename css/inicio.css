@@ -28,9 +28,12 @@ body{
   top: 5.7em;
 }
 .ingresar button{
-  color: #ffffff;
   font-size: 17px;
+  font-weight: bold;
   position: relative;
   top: 7.3em;
   left: 9%;
+}
+.ingresar button a{
+  color: #ffffff;
 }

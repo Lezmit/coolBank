@@ -24,6 +24,7 @@ body {
 }
 
 .input-text{
+  border:none;
   width: 320px;
   height: 60px;
   border-radius: 3px;
@@ -100,7 +101,7 @@ body {
 }
 /*-------------fin----------------*/
 /*----nube---footer---*/
-.nube-footer{
+.nube-footer1{
     background-image: url(../image/mascara-nube-grande.png);
     background-repeat: no-repeat;
     background-size: 375px 207px;
@@ -109,6 +110,17 @@ body {
     position: relative;
     bottom: -84px;
     top: 208px;
+}
+
+.nube-footer{
+   background-image: url(../image/nube-fondo@2x.png);
+   background-repeat: no-repeat;
+   background-size: 374px;
+   height: 202px;
+   background-position: -10px;
+   position: relative;
+   /*bottom: 20px;*/
+   top: 76px;
 }
 
 .btn-block{

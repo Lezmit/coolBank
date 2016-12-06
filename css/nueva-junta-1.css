@@ -2,6 +2,10 @@
 	top: 83px;
 }
 
+.nueva-nav{
+	opacity: 0.75;
+}
+
 /*--- lista--progress--*/
 .list-progress ul li{
 	list-style: none;
