@@ -285,6 +285,9 @@ label a{
 .nueva-junta{
 	padding-top: 20px;
 }
+.top-fixed{
+  padding-top: 86px; 
+}
 .text-junta2 p{
 	font-family: 'Kalam', cursive;
 	font-size: 32px;
@@ -579,3 +582,14 @@ label a{
     font-family: kalam;
     font-size: 1.4em;
 }
+
+.nube-relative{
+  position: relative;
+  top: 65px;
+}
+
+.color-fixed{
+  background-color: #51A8D3;
+}
+
+
