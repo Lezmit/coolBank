@@ -5,21 +5,27 @@ body{
 }
 .logo-junta-pe{
   height: 104px;
-  margin: 10% 0 0 22%;
+  margin: 17% 0 0 20%;
+  object-fit: contain;
 }
 .intro-junta{
-  margin: 20% 0% 0px 5%;
+  margin: 23% 0% 0px 3%;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 .intro-junta h3{
-  font-size: 160%;
+  line-height: 1.2;
+  font-size: 24px;
   color: #ffffff;
 }
 .intro-junta h2{
   color: #FFB301;
+  font-size: 33px;
   font-weight: bold;
+  margin-top: -1.5px;
 }
 .ingresar{
-  top: 8.2em;
+  background-size: 374px;
+  top: 5.7em;
 }
 .ingresar button{
   color: #ffffff;

@@ -32,8 +32,11 @@
   height: 35px;
   background-color: #ffffff;
 }
+.font-roboto{
+  font-family: 'Roboto', sans-serif !important;
+}
 .font-kalam{
-	font-family: 'Kalam', cursive;
+	font-family: 'Kalam', cursive !important;
 }
 .ico-profile{
 	width: 24px;
@@ -77,11 +80,11 @@
 .nube-footer{
     background-image: url(../image/nube-fondo@2x.png);
     background-repeat: no-repeat;
-    background-size: 380px;
+    background-size: 375px;
     height: 202px;
-    background-position: -14px;
+    background-position: -10px;
     position: relative;
-    bottom: 20px;
+    /*bottom: 20px;*/
     top: 62px;
 }
 .btn-block{
