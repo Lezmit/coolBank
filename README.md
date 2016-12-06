@@ -43,9 +43,7 @@
   + Separar la vistas(11) del proyecto para maquetarla.
   
 **2da Parte-Día 2**
-  + Dar funcionalidad a la App(validaciones, consumo de Apis e incorporación de Firebase).
-  
-+ Pulir detalles(en curso).
+  + Dar funcionalidad a la App.
 
 ![Sin titulo](http://i66.tinypic.com/6h6d6s.jpg)
     
