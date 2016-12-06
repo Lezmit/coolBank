@@ -1,17 +1,10 @@
 .bg-light-blue{
-<<<<<<< HEAD
+
   background-color: #3399CC;
 }
 .btn-general{
   border:none;
   width: 300px;
-=======
-	background-color: #3399CC;
-}
-.btn-general{
-  border: none;
-	width: 300px;
->>>>>>> 0a5277748253733ad1bf9cff422c6257bf54b2f1
   height: 50px;
   border-radius: 10px;
   background-color: #663399;
