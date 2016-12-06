@@ -15,7 +15,7 @@
 <!--login-sms-->
 		<div class="container">
 			<p class="font-kalam login white">Te hemos enviado un mensaje para <b class="yellow-login"> confirmar tu número</p>
-			<input type="text" class="input-text margin-sms" placeholder="escribe el código aquí...">
+			<input id="codigo" type="tel" class="input-text margin-sms" placeholder="escribe el código aquí..." maxlength="3">
 			<a href="#" class="code-remsj margin-sms">
 				<ins>¿No te llegó el mensaje?</ins>
 			</a>
@@ -24,7 +24,7 @@
 			<div class="nube-footer nube-top">
 				<div>
 					<button type="button" class="btn btn-primary btn-lg btn-block">
-						<a href="home.html " class="white">
+						<a href="" class="white" id="confirmar">
 							CONFIRMAR
 						</a>
 					</button> 
@@ -32,7 +32,21 @@
 			</div>
 		</section><!--fin section nube -->
 <!--fin login-sms-->
+		<script type="text/javascript">
+			var confirmar = document.getElementById("confirmar");
+			confirmar.addEventListener("click", function(e){
+				e.preventDefault();
+				var codigoValidar = document.getElementById("codigo").value;
+				if(codigoValidar == localStorage.getItem("codigoAleatorio")){
+					location.href="home.html"
+				}else{
+					alert("no es el mismo codigo");
+					location.href="login.html"
+				}
+			});
+		</script>
 		<script type="text/javascript" src="js/jquery.js"></script>
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/random.js"></script>
 	</body>
 </html>
