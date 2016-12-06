@@ -1,0 +1,621 @@
+/*--------Inicio-----*/
+html,
+body{
+  height: 100%;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  background-color: #3399CC;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.logo-junta-pe{
+  height: 104px;
+  margin: 17% 0 0 20%;
+  object-fit: contain;
+}
+.intro-junta{
+  margin: 23% 0% 0px 3%;
+  text-shadow: 0 3px 4px rgba(0, 0, 0, 0.2);
+}
+.intro-junta h3{
+  line-height: 1.2;
+  font-size: 24px;
+  color: #ffffff;
+}
+.intro-junta h2{
+  color: #FFB301;
+  font-size: 33px;
+  font-weight: bold;
+  margin-top: -1.5px;
+}
+.ingresar{
+  background-size: 374px;
+ /* top: 5.7em;*/
+}
+.ingresar button{
+  font-size: 17px;
+  font-weight: bold;
+  position: relative;
+  top: 7.3em;
+  left: 12.5%;
+  width: 75%;
+}
+.ingresar button a{
+  color: #ffffff;
+}
+
+/*-------------Login----*/
+a:hover{
+	text-decoration: none;
+}
+.intro-login{
+	color: #ffffff;
+	padding-top: 41px;
+    padding-left: 11%;
+	text-shadow: 0 3px 4px rgba(0, 0, 0, 0.2);
+}
+.intro-login span{
+	color: #FDB201;
+	font-weight: bold;
+}
+input[name="numero-celular"]{
+	width: 315px;
+	font-size: 19px;
+	padding: 0 0 0 10px;
+	margin: 26% 0 0 5.8%;
+  /*margin:2.5%;*/
+	border: none;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+input[name="terminos-condiciones"]{
+	margin: 3% 0 0 6%;
+	border-radius: 5px;
+  background-color: transparent;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+input[name="terminos-condiciones"] + label{
+	font-size: 17px;
+	width: 261.6px;
+	height: 20px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	color: rgba(255, 255, 255 , 0.7);
+}
+label a{
+	text-decoration: underline;
+	text-underline-position: 6;
+}
+.iniciar-sesion{
+    background-size: 374px;
+    /*top: 7.7em;*/
+}
+.iniciar-sesion button{
+  font-size: 17px;
+  font-weight: bold;
+  position: relative;
+  top: 7.3em;
+  left: 12.5%;
+  width: 75%;
+}
+.iniciar-sesion button a{
+	color: #ffffff;
+}
+
+/*------Login-sms--------*/
+.font-kalam{
+	font-size: 30px;
+}
+.margin-sms{
+  margin-left: 2.5%;
+}
+.shape-copy-2{
+  width: 375px;
+  height: 203px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.yellow-login{
+	color: #ffb301;
+}
+
+.white{
+	color: #fff;
+}
+.login{
+	margin-top: 50px;
+	margin-bottom: 80px;
+	text-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  margin-left: 5.5%;
+}
+.code-remsj{
+	color: #fff;
+	margin-bottom: 97px;
+	font-size: 18px;
+	font-weight: lighter;	
+}
+.confirm{
+	text-decoration: none;
+}
+
+.foot{
+	padding-top: 121px;
+}
+
+/*.nube-footer{
+	bottom: -82px;
+}*/
+
+#login-code{
+	margin-bottom: 11px;
+}
+
+.nube-top{
+	/*top: 3.4em;*/
+	height: 202px;
+}
+.nube-footer a:hover{
+	color: white;
+	text-decoration: none;
+}
+.nube-footer button:hover{
+	background-color: #663399;
+}
+/*------Home-------*/
+.hola-title{
+	font-size: 30px;
+    color: #fff;
+    padding-left: 26px;
+    padding-top: 17px;
+    font-weight: bolder;
+}
+
+.icon-pd{
+	padding-top: 5px;
+}
+
+.registrate{
+	font-size: 28px;
+	color: #fff;
+	opacity: 0.5;
+	margin-top: 94px;
+	font-weight:regular;
+}
+
+.home-nube{
+	height: 182px;
+	width: 261;
+	margin-top: 72px;
+}
+
+.iniciar-home{
+	font-size: 25px;
+	color: #fff;
+	margin-top: 5px;
+}
+
+.btn-plus{
+	border:0;
+	background: transparent;
+}
+/*-------Nueva-junta-paso1--------*/
+.nueva-nav{
+	opacity: 0.75;
+}
+
+/*--- lista--progress--*/
+.list-progress ul li{
+	list-style: none;
+    display: inline-block;
+}
+.list-progress .num-progress{
+	background-color: white;
+    color: #663399;
+    border-radius: 50%;
+    border: 3px solid white;
+    height: 35px;
+    padding: 6px;
+    width: 35px;
+    text-align: center;
+    font-weight: bold;
+}
+.list-progress .linea{
+	border-bottom: 3px solid white;
+    position: relative;
+    top: -3px;
+    width: 38px;
+}
+
+/*---text junta2---*/
+.nueva-junta{
+	padding-top: 31px;
+}
+.text-junta2 p{
+	font-family: 'Kalam', cursive;
+    font-size: 32px;
+    color: white;
+    margin-top: 61px;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    line-height: 1.07;
+    margin-bottom: 32px;
+}
+.text-junta2 span{
+	color: #FFB301;
+}
+.list-progress .linea2{
+	border-bottom: 3px solid #66B2D8;
+}
+.list-progress .color-progress{
+	background-color: transparent;
+	color: #66B2D8;
+	border: 3px solid #66B2D8;
+}
+
+.cuando-btn{
+	border:none;
+	width: 300px;
+	height: 60px;
+	border-radius: 3px;
+	background-color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 28px;
+	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
+	padding-left: 13px;
+	padding-right: 17px;
+}
+
+/*--------------junta 2 y 3----*/
+.list-progress ul li{
+	list-style: none;
+  display: inline-block;
+}
+.list-progress .num-progress{
+	background-color: white;
+  color: #663399;
+  border-radius: 50%;
+  border: 3px solid white;
+  height: 35px;
+  padding: 6px;
+  width: 35px;
+  text-align: center;
+  font-weight: bold;
+}
+.list-progress .linea{
+	border-bottom: 3px solid white;
+  position: relative;
+  top: -3px;
+  width: 38px;
+}
+
+/*---text junta2---*/
+.nueva-junta{
+	padding-top: 20px;
+	/*padding-bottom: 25px;*/
+}
+.text-junta2 p{
+	font-family: 'Kalam', cursive;
+	font-size: 32px;
+	color: white;
+  padding-top: 10px;
+  padding-bottom: 20px; 
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+.text-junta2 span{
+	color: #FFB301;
+	font-weight: bold;
+}
+.list-progress .linea2{
+	border-bottom: 3px solid #66B2D8;
+}
+.list-progress .color-progress{
+	background-color: transparent;
+	color: #66B2D8;
+	border: 3px solid #66B2D8;
+}
+/*----------- dropdown----------*/
+.input-group .input-group-btn .margin-btn{
+	color: #4a4a4a;
+	margin-right: 10px;
+	height: 60px;
+	font-weight: bold;
+	font-size: 28px;
+	border-radius: 3px;
+}
+.input-group .height-input{
+	height: 60px;
+	font-size: 28px;
+}
+.input-group .form-control:last-child{
+	border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.text-span{
+	text-align: right;
+  font-size: 21px;
+  color: white;
+  position: absolute;
+  right: 16px;	
+}
+.newtop{
+	background-size: 104%;
+	/*top: 55px;
+  height: 32%;*/
+  bottom: 0px;
+}
+.btn-next{
+	position: absolute;
+	background-color: #663399;
+	border: 1px solid #663399;
+	bottom: 28px; 
+	height: 50px;
+	color: white;
+	width: 75%;
+	left: 12.5%;
+}
+.icon-left-next{
+	color: #663399;
+	left: 6%;
+  position: absolute;
+  bottom: 39px;
+  font-size: 29px;
+}
+
+/*-----nueva-junta-paso3---*/
+.text-junta3 p{
+    font-family: 'Kalam', cursive;
+    font-size: 29px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+.text-junta3 span{
+  color: #FFB301;
+  font-weight: bold;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+.btn-size{
+  height: 60px;
+}
+.num-personal-junta{
+  height: 60px;
+  background-color: white;
+  font-size: 28px;
+  padding: 10px;
+  border-radius: 7px;
+  margin-bottom: 10px;
+}
+.num-personal-junta span{
+  padding-left: 10px;
+  font-weight: bold;
+}
+.num-personal-junta input{     
+  width: 50%;
+  right: 28px;
+  position: absolute;
+  font-size: 24px;
+  border: transparent;
+  text-align: right; 
+  padding: 6px;
+}  
+.nueva-junta .agregar-friend{
+  font-size: 23px;
+  font-weight: bold;
+  background-color: white;
+}  
+
+.nueva-junta .agregar-friend i{
+  padding-right: 10px;
+ }
+/* .newtop3{
+  top: 33px;
+}*/
+.text-span-junta3{
+  text-align: right;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  right: 25%;
+  bottom: 5px;
+}
+.text-junta-confirmacion{
+  padding-top: 28px;
+}
+.text-junta-confirmacion p{
+ font-family: 'Kalam', cursive;
+  color: white;
+  margin-bottom: 0px;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+.text-junta-confirmacion span{
+  color: #FFB301;
+  font-weight: bold;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+ 
+}
+.text-listo{
+  font-size: 38px;
+}
+.text-light{
+  font-size: 25px;
+  font-weight: 100;
+  padding-bottom: 20px;
+}
+.text-final{
+  font-size: 34px;
+}
+/*.newtopconfirmation{
+  top: 87px;
+}
+*/
+.position-text{
+   bottom: 82px;
+   font-size: 19px;
+   right: 16%;
+}   
+
+/*------------configuración---------*/
+.margen {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+/* .nube-footer{
+    background-image: url(../image/nube-fondo@2x.png);
+    background-repeat: no-repeat;
+    background-size: 380px;
+    height: 200px;
+    position: relative;
+    top: 78px;
+} */
+
+.datosUsuario {
+	margin-top: 50px;
+	margin-left: 30px;
+}
+
+.pInput {
+	color: #8DC6E2;
+	font-size: 1.1em;
+}
+
+.inputSueño {
+	width: 272px;
+	height: 60px;
+	font-size: 1.4em;
+}
+
+.inputFoto {
+	width: 272px;
+	height: 60px;
+	padding-left: 22%;
+	font-size: 1.4em;
+	color: #4a4a4a;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+
+.iconAgregar {
+    top: 58%;
+    left: 12%;
+    font-size: 2em;
+	position: absolute;
+}
+
+.correccionTamano {
+	width: 190px;
+    height: 60px;
+    font-size: 1.4em;
+}
+
+.altoSelect {
+	height: 60px;
+	width: 74px;
+}
+
+/*------------ Viaje-cancun-------*/
+.navbarViaje {
+    width: 100%;
+    height: 70px;
+    background-color: #51A8D3;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0px;
+    opacity: 0.95;
+}
+.text-nav{
+  display: inline-block;
+  position: relative;
+  /*left: 30px;*/
+  top: 0px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  color: #FFFFFF;
+}
+.icon-color{
+	color: #D3E9F3;
+	font-size: 24px;
+    margin-left: 7%;
+}
+.textoUsuario {
+    font-family: 'Kalam', cursive;
+    font-size: 2.1em;
+    width: 340px;
+    padding-top: 34%;
+    padding-left: 9%;
+    color: #FDFEFE;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+.textoColor {
+	color: #F5B008;
+    font-weight: bold;
+}
+.nube-Footer {
+	position: fixed;
+    top: 47%;
+    left: -13%;
+    overflow: hidden;
+}
+/*-------------Mis juntas --------*/
+.navbarMisJuntas {
+    width: 100%;
+    height: 70px;
+    background-color: #51A8D3;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0px;
+    opacity: 0.95;
+}
+
+.icon-color{
+	color: #D3E9F3;
+	font-size: 24px;
+}
+
+.nubesMixtas {
+	margin-top: 30%;
+}
+
+.nubeMascara {
+    width: 70%;
+    left: 14%;
+    top: 20%;
+    position: absolute;
+}
+
+.nubeNormal {
+    width: 67%;
+    margin-top: 75%;
+    margin-left: 14%;
+}
+
+.cruzNube {
+    font-family: 'Kalam', cursive;
+    position: absolute;
+    color: #663399;
+    top: 62%;
+    left: 43%;
+    font-size: 7em;
+}
+
+.textNubeM {
+	position: absolute;
+    top: 48%;
+    left: 34%;
+    color: #ffffff;
+    font-family: kalam;
+    font-size: 1.4em;	
+}
+
+.textNubeN {
+	margin-top: 3%;
+    margin-left: 37%;
+    color: #ffffff;
+    font-family: kalam;
+    font-size: 1.4em;
+}

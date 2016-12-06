@@ -24,13 +24,16 @@ body {
 }
 
 .input-text{
-  border:none;
-  width: 320px;
-  height: 60px;
-  border-radius: 3px;
-  background-color: #ffffff;
-  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
-  font-family: 'Roboto', sans-serif;
+    border: none;
+    width: 320px;
+    height: 60px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    padding: 10px;
+    /* box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2); */
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: normal
 }
 
 .bg-nav-profile{
@@ -78,7 +81,7 @@ body {
 }
 .next-left{
   position: absolute;
-  left: 22px;
+  /*left: 22px;*/
   top: 20px;
 }
 .Rectangle-3 {
@@ -118,23 +121,38 @@ body {
    background-size: 374px;
    height: 202px;
    background-position: -10px;
-   position: relative;
-   /*bottom: 20px;*/
-   top: 76px;
+   position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
 }
 
 .btn-block{
   position: absolute;
   background-color: #663399;
   border: 1px solid #663399;
-  bottom: 28px; 
+  bottom: 28px;
+  font-weight: bold; 
   height: 50px;
   color: white;
-  width: 90%;
-  left: 5%;
+  width: 75%;
+  left: 12.5%;
 
 }
 
 .footer-image{
   height: 203px;
+}
+a:hover{
+  text-decoration: none;
+}
+
+.btn-next:hover{
+  background-color: #663399;
+  border: 1px solid #663399;
+}
+.btn-block:hover{
+  background-color: #663399;
+  border: 1px solid #663399;
+
 }
