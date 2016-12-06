@@ -6,6 +6,8 @@
   height: 50px;
   border-radius: 10px;
   background-color: #663399;
+  border: none;
+  color: #fff;
 }
 .btn-siguiente{
 	width: 264px;
@@ -19,6 +21,7 @@
   border-radius: 3px;
   background-color: #ffffff;
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
+  font-family: 'Roboto', sans-serif;
 }
 .bg-nav-profile{
   width: 375px;
@@ -57,7 +60,8 @@
 }
 .Rectangle-3 {
   height: 70px;
-  background-color: #51A8D3;
+  background-color: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
 }
 .Rectangle-3 .icon-color{
  color: #D3E9F3;
@@ -87,7 +91,8 @@
   position: absolute;
   background-color: #663399;
   border: 1px solid #663399;
-  bottom: 25px;
+  bottom: 28px; 
+  height: 50px;
   color: white;
   width: 90%;
   left: 5%;
