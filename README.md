@@ -27,10 +27,11 @@
 + Explicación del reto por parte de nuestro Team Leader.
 
 + Definición de tareas:
-  **1era Parte-Día 1**
+
+**1era Parte-Día 1**
   + Separar la vistas(11) del proyecto para maquetarla
   
-  **2da Parte-Día 2**
+**2da Parte-Día 2**
   + Dar funcionalidad a la App(validaciones, consumo de Apis e incorporación de Firebase)
   
 + Pulir detalles(en curso).
