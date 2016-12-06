@@ -1,4 +1,4 @@
-#Hackaton Laboratoria 
+#Hackathon Laboratoria 
 
 **Reto**
 
@@ -40,10 +40,10 @@
 + Definición de tareas:
 
 **1era Parte-Día 1**
-  + Separar la vistas(11) del proyecto para maquetarla
+  + Separar la vistas(11) del proyecto para maquetarla.
   
 **2da Parte-Día 2**
-  + Dar funcionalidad a la App(validaciones, consumo de Apis e incorporación de Firebase)
+  + Dar funcionalidad a la App(validaciones, consumo de Apis e incorporación de Firebase).
   
 + Pulir detalles(en curso).
 
