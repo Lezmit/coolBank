@@ -48,16 +48,10 @@
   background-color: rgba(255, 255, 255, 0.75);
 }
 
-/* .nube-footer{
- background-image: url(../image/nube-fondo@2x.png);
- background-size: contain;
- background-repeat: no-repeat;
- height: 200px;
- width: 375px;
- position: relative;
- left: -15px;
-} */
------------nav-----------------
+.yellow{
+  color: #ffb301;
+}
+/*-----------nav-----------------*/
 .user-right{
   position: absolute;
   right: 25px;
@@ -89,7 +83,7 @@
 .nube-footer{
     background-image: url(../image/nube-fondo@2x.png);
     background-repeat: no-repeat;
-    background-size: 380px;
+    background-size: 375px 207px;
     height: 200px;
     background-position: -14px;
     position: relative;
