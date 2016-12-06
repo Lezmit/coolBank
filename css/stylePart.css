@@ -9,24 +9,24 @@ body{
 /*--- lista--progress--*/
 .list-progress ul li{
 	list-style: none;
-    display: inline-block;
+  display: inline-block;
 }
 .list-progress .num-progress{
 	background-color: white;
-    color: #663399;
-    border-radius: 50%;
-    border: 3px solid white;
-    height: 35px;
-    padding: 6px;
-    width: 35px;
-    text-align: center;
-    font-weight: bold;
+  color: #663399;
+  border-radius: 50%;
+  border: 3px solid white;
+  height: 35px;
+  padding: 6px;
+  width: 35px;
+  text-align: center;
+  font-weight: bold;
 }
 .list-progress .linea{
 	border-bottom: 3px solid white;
-    position: relative;
-    top: -3px;
-    width: 38px;
+  position: relative;
+  top: -3px;
+  width: 38px;
 }
 
 /*---text junta2---*/
@@ -39,7 +39,8 @@ body{
 	font-size: 32px;
 	color: white;
 	padding-top: 40px;
-    padding-bottom: 20px; 
+  padding-bottom: 20px; 
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
 }
 .text-junta2 span{
 	color: #FFB301;
@@ -55,42 +56,143 @@ body{
 }
 /*----------- dropdown----------*/
 .input-group .input-group-btn .margin-btn{
- margin-right: 10px;
- height: 60px;
- font-weight: bold;
- font-size: 28px;
+	color: #4a4a4a;
+	margin-right: 10px;
+	height: 60px;
+	font-weight: bold;
+	font-size: 28px;
+	border-radius: 3px;
 }
 .input-group .height-input{
 	height: 60px;
 	font-size: 28px;
 }
+.input-group .form-control:last-child{
+	border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
 .text-span{
 	text-align: right;
-    font-size: 21px;
-    color: white;
-    position: absolute;
-    right: 16px;	
+  font-size: 21px;
+  color: white;
+  position: absolute;
+  right: 16px;	
 }
 .newtop{
 	background-size: 104%;
 	top: 55px;
-    height: 32%;
-    bottom: 0px;
+  height: 32%;
+  bottom: 0px;
 }
 .btn-next{
 	position: absolute;
-  	background-color: #663399;
-  	border: 1px solid #663399;
-  	bottom: 28px; 
-  	height: 50px;
-  	color: white;
-  	width: 75%;
-  	left: 15%;
+	background-color: #663399;
+	border: 1px solid #663399;
+	bottom: 28px; 
+	height: 50px;
+	color: white;
+	width: 75%;
+	left: 15%;
 }
 .icon-left-next{
 	color: #663399;
 	left: 6%;
-    position: absolute;
-    bottom: 39px;
-    font-size: 29px;
+  position: absolute;
+  bottom: 39px;
+  font-size: 29px;
 }
+
+/*-----nueva-junta-paso3---*/
+.text-junta3 p{
+    font-family: 'Kalam', cursive;
+    font-size: 29px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+.text-junta3 span{
+  color: #FFB301;
+  font-weight: bold;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+.btn-size{
+  height: 60px;
+}
+.num-personal-junta{
+  height: 60px;
+  background-color: white;
+  font-size: 28px;
+  padding: 10px;
+  border-radius: 7px;
+  margin-bottom: 10px;
+}
+.num-personal-junta span{
+  padding-left: 10px;
+  font-weight: bold;
+}
+.num-personal-junta input{     
+  width: 50%;
+  right: 28px;
+  position: absolute;
+  font-size: 24px;
+  border: transparent;
+  text-align: right; 
+  padding: 6px;
+}  
+.nueva-junta .agregar-friend{
+  font-size: 23px;
+  font-weight: bold;
+  background-color: white;
+}  
+
+.nueva-junta .agregar-friend i{
+  padding-right: 10px;
+ }
+ .newtop3{
+  top: 33px;
+}
+.text-span-junta3{
+  text-align: right;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  right: 78px;
+  bottom: 5px;
+}
+.text-junta-confirmacion{
+  padding-top: 28px;
+}
+.text-junta-confirmacion p{
+ font-family: 'Kalam', cursive;
+  color: white;
+  margin-bottom: 0px;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+.text-junta-confirmacion span{
+  color: #FFB301;
+  font-weight: bold;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+ 
+}
+.text-listo{
+  font-size: 38px;
+}
+.text-light{
+  font-size: 25px;
+  font-weight: 100;
+  padding-bottom: 20px;
+}
+.text-final{
+  font-size: 34px;
+}
+.newtopconfirmation{
+  top: 87px;
+}
+
+.position-text{
+   bottom: 82px;
+   font-size: 19px;
+   right: 50px;
+}   
