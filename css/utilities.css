@@ -5,63 +5,85 @@ body {
 .bg-ligth-blue{
 	background-color: #3399CC;
 }
+
 .btn-general{
-	width: 300px;
+  border:none;
+  width: 300px;
   height: 50px;
   border-radius: 10px;
   background-color: #663399;
+  border: none;
+  color: #fff;
 }
+
 .btn-siguiente{
-	width: 264px;
+  width: 264px;
   height: 50px;
   border-radius: 10px;
   background-color: #663399;
 }
+
 .input-text{
   width: 320px;
   height: 60px;
   border-radius: 3px;
   background-color: #ffffff;
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
+  font-family: 'Roboto', sans-serif;
 }
+
 .bg-nav-profile{
   width: 375px;
   height: 70px;
   background-color: rgba(255, 255, 255, 0.15);
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
 }
+
 .pagination{
   width: 35px;
   height: 35px;
   background-color: #ffffff;
 }
-.font-kalam{
-	font-family: 'Kalam', cursive;
+
+.font-roboto{
+  font-family: 'Roboto', sans-serif;
 }
+
+.font-kalam{
+  font-family: 'Kalam', cursive;
+}
+
 .ico-profile{
-	width: 24px;
+  width: 24px;
   height: 24px;
   background-color: rgba(255, 255, 255, 0.75);
 }
+
 .ico-configuration{
-	width: 25px;
+  width: 25px;
   height: 25.3px;
   background-color: rgba(255, 255, 255, 0.75);
 }
+
+.yellow{
+  color: #ffb301;
+}
+
 /*-----------nav-----------------*/
 .user-right{
   position: absolute;
   right: 25px;
   top: 20px;
 }
-.netx-left{
+.next-left{
   position: absolute;
   left: 22px;
   top: 20px;
 }
 .Rectangle-3 {
   height: 70px;
-  background-color: #51A8D3;
+  background-color: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
 }
 .Rectangle-3 .icon-color{
  color: #D3E9F3;
@@ -81,7 +103,7 @@ body {
 .nube-footer{
     background-image: url(../image/mascara-nube-grande.png);
     background-repeat: no-repeat;
-    background-size: 380px;
+    background-size: 375px 207px;
     height: 200px;
     background-position: -14px;
     position: relative;
@@ -93,13 +115,14 @@ body {
   position: absolute;
   background-color: #663399;
   border: 1px solid #663399;
-  bottom: 25px;
+  bottom: 28px; 
+  height: 50px;
   color: white;
   width: 90%;
   left: 5%;
 
 }
+
 .footer-image{
   height: 203px;
 }
-/*-----fin--*/
