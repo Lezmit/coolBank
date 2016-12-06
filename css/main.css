@@ -30,7 +30,6 @@ body{
 }
 .ingresar{
   background-size: 374px;
- /* top: 5.7em;*/
 }
 .ingresar button{
   font-size: 17px;
@@ -43,7 +42,6 @@ body{
 .ingresar button a{
   color: #ffffff;
 }
-
 /*-------------Login----*/
 a:hover{
 	text-decoration: none;
@@ -63,7 +61,6 @@ input[name="numero-celular"]{
 	font-size: 19px;
 	padding: 0 0 0 10px;
 	margin: 26% 0 0 5.8%;
-  /*margin:2.5%;*/
 	border: none;
 	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 }
@@ -89,7 +86,6 @@ label a{
 }
 .iniciar-sesion{
     background-size: 374px;
-    /*top: 7.7em;*/
 }
 .iniciar-sesion button{
   font-size: 17px;
@@ -144,17 +140,11 @@ label a{
 .foot{
 	padding-top: 121px;
 }
-
-/*.nube-footer{
-	bottom: -82px;
-}*/
-
 #login-code{
 	margin-bottom: 11px;
 }
 
 .nube-top{
-	/*top: 3.4em;*/
 	height: 202px;
 }
 .nube-footer a:hover{
@@ -294,7 +284,6 @@ label a{
 /*---text junta2---*/
 .nueva-junta{
 	padding-top: 20px;
-	/*padding-bottom: 25px;*/
 }
 .text-junta2 p{
 	font-family: 'Kalam', cursive;
@@ -343,8 +332,6 @@ label a{
 }
 .newtop{
 	background-size: 104%;
-	/*top: 55px;
-  height: 32%;*/
   bottom: 0px;
 }
 .btn-next{
@@ -356,10 +343,11 @@ label a{
 	color: white;
 	width: 75%;
 	left: 12.5%;
+  padding-top: 13px;
 }
 .icon-left-next{
 	color: #663399;
-	left: 6%;
+	left: 4%;
   position: absolute;
   bottom: 39px;
   font-size: 29px;
@@ -412,9 +400,6 @@ label a{
 .nueva-junta .agregar-friend i{
   padding-right: 10px;
  }
-/* .newtop3{
-  top: 33px;
-}*/
 .text-span-junta3{
   text-align: right;
   font-size: 15px;
@@ -449,47 +434,29 @@ label a{
 .text-final{
   font-size: 34px;
 }
-/*.newtopconfirmation{
-  top: 87px;
-}
-*/
 .position-text{
    bottom: 82px;
    font-size: 19px;
    right: 16%;
 }   
-
 /*------------configuración---------*/
 .margen {
 	margin-left: 0px;
 	margin-right: 0px;
 }
-
-/* .nube-footer{
-    background-image: url(../image/nube-fondo@2x.png);
-    background-repeat: no-repeat;
-    background-size: 380px;
-    height: 200px;
-    position: relative;
-    top: 78px;
-} */
-
 .datosUsuario {
 	margin-top: 50px;
 	margin-left: 30px;
 }
-
 .pInput {
 	color: #8DC6E2;
 	font-size: 1.1em;
 }
-
 .inputSueño {
 	width: 272px;
 	height: 60px;
 	font-size: 1.4em;
 }
-
 .inputFoto {
 	width: 272px;
 	height: 60px;
@@ -499,7 +466,6 @@ label a{
 	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
 }
-
 .iconAgregar {
     top: 58%;
     left: 12%;
@@ -576,11 +542,6 @@ label a{
 	color: #D3E9F3;
 	font-size: 24px;
 }
-
-.nubesMixtas {
-	margin-top: 30%;
-}
-
 .nubeMascara {
     width: 70%;
     left: 14%;
@@ -590,7 +551,7 @@ label a{
 
 .nubeNormal {
     width: 67%;
-    margin-top: 75%;
+    margin-top: 100%;
     margin-left: 14%;
 }
 
@@ -611,7 +572,6 @@ label a{
     font-family: kalam;
     font-size: 1.4em;	
 }
-
 .textNubeN {
 	margin-top: 3%;
     margin-left: 37%;
